@@ -1,5 +1,7 @@
+import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpackConfig
+
 plugins {
-    kotlin("multiplatform") version "1.9.0"
+    kotlin("multiplatform") version "1.9.10"
     id("org.jetbrains.dokka") version "1.9.0"
     id("maven-publish")
     id("signing")
@@ -24,26 +26,21 @@ kotlin {
     }
     js {
         browser {
-            commonWebpackConfig {
+            commonWebpackConfig(Action<KotlinWebpackConfig> {
                 cssSupport {
                     enabled.set(true)
                 }
-            }
+            })
         }
     }
-    val hostOs = System.getProperty("os.name")
-    val isArm64 = System.getProperty("os.arch") == "aarch64"
-    val isMingwX64 = hostOs.startsWith("Windows")
-    val nativeTarget = when {
-        hostOs == "Mac OS X" && isArm64 -> macosArm64("native")
-        hostOs == "Mac OS X" && !isArm64 -> macosX64("native")
-        hostOs == "Linux" && isArm64 -> linuxArm64("native")
-        hostOs == "Linux" && !isArm64 -> linuxX64("native")
-        isMingwX64 -> mingwX64("native")
-        else -> throw GradleException("Host OS is not supported in Kotlin/Native.")
-    }
+    macosX64()
+    macosArm64()
+    linuxX64()
+    linuxArm64()
+    mingwX64()
+    iosX64()
+    iosArm64()
 
-    
     sourceSets {
         getByName("commonMain")
         getByName("commonTest") {
