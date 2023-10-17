@@ -1,0 +1,29 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:io.circul.capillary////PointingToDeclaration/-capillary/io.circul.capillary/index.html
+$dokka.location:io.circul.capillary//then/TypeParam(bounds=[io.circul.capillary.PortResponse])#kotlin.Function1[io.circul.capillary.ResponseReceiver[TypeParam(bounds=[io.circul.capillary.PortResponse])],kotlin.Unit]/PointingToDeclaration/-capillary/io.circul.capillary/then.html
+$dokka.location:io.circul.capillary//via/TypeParam(bounds=[io.circul.capillary.PortRequest])#io.circul.capillary.Port[TypeParam(bounds=[io.circul.capillary.PortRequest]),TypeParam(bounds=[io.circul.capillary.PortResponse])]/PointingToDeclaration/-capillary/io.circul.capillary/via.html
+$dokka.location:io.circul.capillary/Factory///PointingToDeclaration/-capillary/io.circul.capillary/-factory/index.html
+$dokka.location:io.circul.capillary/FactoryProvider///PointingToDeclaration/-capillary/io.circul.capillary/-factory-provider/index.html
+$dokka.location:io.circul.capillary/FactoryProvider/FactoryProvider/#kotlin.Function0[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/-capillary/io.circul.capillary/-factory-provider/-factory-provider.html
+$dokka.location:io.circul.capillary/FactoryProvider/provide/#/PointingToDeclaration/-capillary/io.circul.capillary/-factory-provider/provide.html
+$dokka.location:io.circul.capillary/Port///PointingToDeclaration/-capillary/io.circul.capillary/-port/index.html
+$dokka.location:io.circul.capillary/Port/invoke/#kotlin.Function1[io.circul.capillary.Port[TypeParam(bounds=[io.circul.capillary.PortRequest]),TypeParam(bounds=[io.circul.capillary.PortResponse])],kotlin.Unit]/PointingToDeclaration/-capillary/io.circul.capillary/-port/invoke.html
+$dokka.location:io.circul.capillary/Port/process/#TypeParam(bounds=[io.circul.capillary.PortRequest])#kotlin.Function1[TypeParam(bounds=[io.circul.capillary.PortResponse]),kotlin.Unit]/PointingToDeclaration/-capillary/io.circul.capillary/-port/process.html
+$dokka.location:io.circul.capillary/Port/process/#TypeParam(bounds=[io.circul.capillary.PortRequest])/PointingToDeclaration/-capillary/io.circul.capillary/-port/process.html
+$dokka.location:io.circul.capillary/Port/takes/#TypeParam(bounds=[io.circul.capillary.PortRequest])/PointingToDeclaration/-capillary/io.circul.capillary/-port/takes.html
+$dokka.location:io.circul.capillary/PortRequest///PointingToDeclaration/-capillary/io.circul.capillary/-port-request/index.html
+$dokka.location:io.circul.capillary/PortResponse///PointingToDeclaration/-capillary/io.circul.capillary/-port-response/index.html
+$dokka.location:io.circul.capillary/Provider///PointingToDeclaration/-capillary/io.circul.capillary/-provider/index.html
+$dokka.location:io.circul.capillary/Provider/provide/#/PointingToDeclaration/-capillary/io.circul.capillary/-provider/provide.html
+$dokka.location:io.circul.capillary/ResponseReceiver///PointingToDeclaration/-capillary/io.circul.capillary/-response-receiver/index.html
+$dokka.location:io.circul.capillary/ResponseReceiver/ResponseReceiver/#TypeParam(bounds=[io.circul.capillary.PortResponse])/PointingToDeclaration/-capillary/io.circul.capillary/-response-receiver/-response-receiver.html
+$dokka.location:io.circul.capillary/ResponseReceiver/expects/#kotlin.Function1[io.circul.capillary.ResponseReceiver[TypeParam(bounds=[TypeParam(bounds=[io.circul.capillary.PortResponse])])],kotlin.Unit]/PointingToDeclaration/-capillary/io.circul.capillary/-response-receiver/expects.html
+$dokka.location:io.circul.capillary/ResponseReceiver/expects/#kotlin.reflect.KClass[TypeParam(bounds=[TypeParam(bounds=[io.circul.capillary.PortResponse])])]#kotlin.Function1[io.circul.capillary.ResponseReceiver[TypeParam(bounds=[TypeParam(bounds=[io.circul.capillary.PortResponse])])],kotlin.Unit]/PointingToDeclaration/-capillary/io.circul.capillary/-response-receiver/expects.html
+$dokka.location:io.circul.capillary/ResponseReceiver/otherwise/#kotlin.Function1[io.circul.capillary.ResponseReceiver[TypeParam(bounds=[io.circul.capillary.PortResponse])],kotlin.Unit]/PointingToDeclaration/-capillary/io.circul.capillary/-response-receiver/otherwise.html
+$dokka.location:io.circul.capillary/ResponseReceiver/response/#/PointingToDeclaration/-capillary/io.circul.capillary/-response-receiver/response.html
+$dokka.location:io.circul.capillary/SingletonProvider///PointingToDeclaration/-capillary/io.circul.capillary/-singleton-provider/index.html
+$dokka.location:io.circul.capillary/SingletonProvider/SingletonProvider/#kotlin.Function0[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/-capillary/io.circul.capillary/-singleton-provider/-singleton-provider.html
+$dokka.location:io.circul.capillary/SingletonProvider/provide/#/PointingToDeclaration/-capillary/io.circul.capillary/-singleton-provider/provide.html
+io.circul.capillary
+
